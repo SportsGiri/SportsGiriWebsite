@@ -1,0 +1,25 @@
+
+.custom-uplift::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    transform: translate(-50%, -50%);
+    /* box-shadow: 0 4px 6px rgba(107, 114, 128, 0.5); */
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    z-index: -1;
+  }
+  
+  .custom-uplift:hover::before {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+  
+  .custom-uplift:hover {
+    transform: translateY(-0.5rem);
+    font-size: 1.125rem;
+  }
+  
