@@ -1,10 +1,8 @@
 "use client";
-// import Link from "next/link";
+
 import "./page.css";
 import { Link } from "react-scroll";
 import { Button } from "@/components/ui/button";
-// import { Input } from "@/components/ui/input";
-// import { Textarea } from "@/components/ui/textarea";
 import Image from "next/image";
 import { useState } from "react";
 import {
@@ -20,6 +18,7 @@ import {
   PhoneIcon,
   MailIcon,
 } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -164,6 +163,7 @@ export default function Home() {
         id="home"
         className="pt-16 md:pt-20 bg-gradient-to-b from-background to-muted min-h-screen flex flex-col items-center justify-center relative"
       >
+        <Analytics/>
         <video
           autoPlay
           loop
