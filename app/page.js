@@ -77,22 +77,10 @@ export default function Home() {
               duration={500}
               className="text-sm font-medium hover:text-primary cursor-pointer relative transition-transform custom-uplift"
             >
-              Contact
+              Contact Us
             </Link>
           </nav>
           <div className="hidden md:inline-flex px-10"></div>
-          {/* <Button className="hidden md:inline-flex">
-            <Link
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={500}
-                className="text-sm font-medium cursor-pointer relative"
-              >
-              Contact us
-            </Link>
-          </Button> */}
           <div className="md:hidden">
             <Button
               variant="ghost"
@@ -153,7 +141,7 @@ export default function Home() {
                 className="text-sm font-medium hover:text-primary cursor-pointer"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Contact
+                Contact Us
               </Link>
             </nav>
           </div>
