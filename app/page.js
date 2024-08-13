@@ -286,7 +286,7 @@ export default function Home() {
         className="flex-1 min-h-screen bg-gradient-to-b from-background to-muted flex items-center justify-center"
       >
         <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center gap-8 md:gap-16">
-          <div className="flex flex-col justify-center pt-3 order-1 md:order-2 md:w-1/2">
+          <div className="flex flex-col justify-center pt-3 order-2 md:order-2 md:w-1/2">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
               Elevate Your Shooting Experience
             </h2>
@@ -372,7 +372,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="relative w-full h-[300px] md:h-[400px] order-2 md:order-1 md:w-1/2">
+          <div className="relative w-full h-[300px] md:h-[400px] order-1 md:order-1 md:w-1/2">
             <img
               src="/Group1.png"
               width={800}
